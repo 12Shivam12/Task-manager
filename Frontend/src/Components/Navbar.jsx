@@ -31,11 +31,11 @@ const Navbar = () => {
             {menuOpen && (
                 <div className='absolute top-20 left-0 w-full bg-white shadow-md md:hidden'>
                     <ul className='flex flex-col items-center list-none'>
-                        <li className='py-2'><button onClick={toggleMenu}>Home</button></li>
-                        <li className='py-2'><button onClick={toggleMenu}>About us</button></li>
-                        <li className='py-2'><button onClick={toggleMenu}>Todos</button></li>
-                        <li className='py-2'><button className='px-4 py-1 border border-black rounded-full cursor-pointer' onClick={toggleMenu}>Log in</button></li>
-                        <li className='py-2'><button className='px-4 py-1 border border-black rounded-full bg-black text-white cursor-pointer' onClick={toggleMenu}>Sign up</button></li>
+                        <li className='py-2'><button>Home</button></li>
+                        <li className='py-2'><button>About us</button></li>
+                        <li className='py-2'><button>Todos</button></li>
+                        <li className='py-2'><button className='px-4 py-1 border border-black rounded-full cursor-pointer' >Log in</button></li>
+                        <li className='py-2'><button className='px-4 py-1 border border-black rounded-full bg-black text-white cursor-pointer' >Sign up</button></li>
                     </ul>
                 </div>
             )}

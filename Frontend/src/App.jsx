@@ -1,3 +1,5 @@
+import AboutUs from "./Components/AboutUs"
+import Home from "./Components/Home"
 import Navbar from "./Components/Navbar"
 
 function App() {
@@ -6,6 +8,8 @@ function App() {
   return (
     <>
      <Navbar/>
+     {/* <Home/> */}
+     <AboutUs/>
     </>
   )
 }
